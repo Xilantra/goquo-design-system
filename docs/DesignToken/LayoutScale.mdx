@@ -1,0 +1,33 @@
+---
+name: Layout Scale
+route: /designtokens/layout-scale
+menu: 'Design Tokens'
+---
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import Scale from './layoutScale.js'
+
+<GlobalStyle />
+
+# Layout Scale
+```import theme from '../src/Utils/Theme'```
+or
+```import { layoutScale } from '../src/Utils/Theme'```
+
+
+## Introduction
+The layout scale is used for arranging components and other UI parts into a full page layout. It has larger increments that are used to control the density of a design. Use the smaller layout tokens to create more dense compositions and direct relationships. Use the larger tokens to increase the amount of white space and to disassociate sections.
+
+More on constraint layout (for designers) on [Medium](https://medium.com/tap-to-dismiss/constraint-layout-for-designers-3c665cb4d074).
+
+
+## Usage
+Empty space — also known as white space — is important in design. It can be used to break up sections on a page or to help create focus on certain element(s). White space helps with information processing; too much dense information can be disorienting or overwhelming for a user. Sections of a UI are allowed to be dense, but the whole page should not be crowded; there should be white space to let the user’s eye rest.
+
+
+```top: ${theme.layoutScale[4]};``` <br />
+```margin: ${theme.layoutScale[5]};``` <br />
+```width: ${theme.layoutScale[8]};```
+
+
+## Tokens
+<Scale />

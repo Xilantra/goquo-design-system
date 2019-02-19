@@ -1,0 +1,35 @@
+---
+name: Spacing Scale
+route: /designtokens/spacing-scale
+menu: 'Design Tokens'
+---
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import Scale from './SpacingScale.js'
+
+<GlobalStyle />
+
+# Spacing Scale
+```import theme from '../src/Utils/Theme'```
+or
+```import { spacing } from '../src/Utils/Theme'```
+
+
+## Introduction
+Every part of a UI should be intentional including the empty space between elements. The amount of space between items creates relationships and hierarchy.
+
+Use the spacing scale when building individual components. It includes small increments needed to create appropriate spatial relationships for detail-level designs. This scale is applied and used within all components.
+
+More on constraint layout (for designers) on [Medium](https://medium.com/tap-to-dismiss/constraint-layout-for-designers-3c665cb4d074).
+
+
+
+## Usage
+Used for smaller, more refined spacing needs, specifically within the context of a component (i.e. the space between a label and a text input). Can be use on padding, margin, height, width  or anything.
+
+```padding: ${theme.spacing[5]};``` <br />
+```height: ${theme.spacing[4]};``` <br />
+```width: ${theme.spacing[8]};```
+
+
+## Tokens
+<Scale />

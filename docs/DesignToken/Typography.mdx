@@ -1,0 +1,65 @@
+---
+name: Typography
+route: /designtokens/typography
+menu: 'Design Tokens'
+---
+import { Playground, PropsTable } from 'docz'
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import { Heading2, Paragraph, SubHeading } from '../../src/Utils/Typography.js'
+import HeadingList from './Typography.js'
+
+<GlobalStyle />
+
+# Typography
+```import { HeroTitle, Title, Heading2, Heading3, Heading4, Heading5, Heading6, Paragraph } from '../src/Utils/Typography'```
+
+
+## Introduction
+Typography creates purposeful texture, guiding users to read and understand the hierarchy of information. The right typographic treatment and the controlled usage of type styles helps manage the display of content, keeping it useful, simple, and effective.
+
+
+When used properly, typography can help create clear hierarchies, organize information, and guide users through the product or experience.
+
+
+## Type Scale
+| Scale     | Pixel     | Rem       |
+| :-------: | :-------: | :-------: |
+| 1         | 11px      | 0.6875rem |
+| 2         | 12px      | 0.75rem   |
+| 3         | 14px      | 0.875rem  |
+| 4         | 16px      | 1rem      |
+| 5         | 18px      | 1.125rem  |
+| 6         | 20px      | 1.25rem   |
+| 7         | 24px      | 1.5rem    |
+| 8         | 28px      | 1.75rem   |
+| 9         | 36px      | 2.25rem   |
+| 10        | 54px      | 3.375rem  |
+| 11        | 76px      | 4.75rem   |
+
+## Tokens & Usage
+
+<HeadingList />
+
+## Heading
+```<HeroTitle>``` & ```<Title>``` is reserved for ```h1``` and used only once.
+<Playground>
+    <Heading2>This is for layout headings.</Heading2>
+</Playground>
+
+
+## SubHeading
+HTML does not have a dedicated mechanism for marking up subheadings, alternative titles or taglines. HeroTitle, Title & Headings (h1–h6) elements must not be used to markup subheadings, subtitles, alternative titles and taglines unless intended to be the heading for a new section or subsection. Use ```<SubHeading size="">``` or ```<Paragraph>``` for that.
+<br />
+
+<Playground>
+    <SubHeading size="8">This is SubHeading. You can change the size using the Type Scale, from 1 to 10.</SubHeading>
+</Playground>
+
+<PropsTable of={SubHeading} />
+
+## Paragraph
+<Playground>
+    <Paragraph scale="small">This is commonly used in the expressive type theme layouts for long paragraphs with more than four lines.</Paragraph>
+</Playground>
+
+<PropsTable of={Paragraph} />

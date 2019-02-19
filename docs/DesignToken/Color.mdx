@@ -1,0 +1,33 @@
+---
+name: Color
+route: /designtokens/color
+menu: 'Design Tokens'
+---
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import ListPostWrapper from './Color.js'
+import Monochromatic from './ColorMono.js'
+
+<GlobalStyle />
+
+# Colors
+```import theme from '../src/Utils/Theme'```
+or
+```import { colors } from '../src/Utils/Theme'```
+
+
+## Introduction
+Application of the color palette brings a unified and recognizable consistency to GuoQuo’s vast array of digital products and interfaces. This consistency is grounded by a set of well-defined rules on how to work with the component library.
+
+
+
+## Usage
+```color: ${theme.colors.inverse01};``` <br />
+```background-color: ${theme.colors.primary};```
+
+
+## Monochromatic Color Scheme
+<Monochromatic />
+
+
+## Tokens
+<ListPostWrapper />
