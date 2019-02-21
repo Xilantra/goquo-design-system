@@ -9,7 +9,7 @@ const PostWrapper = styled.div`
   flex-direction: column;
   margin-bottom: 4rem;
 
-  ${media.tablet`
+  ${media.md`
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
@@ -19,7 +19,7 @@ const PostWrapper = styled.div`
 const TokenOutputWrapper = styled.div`
     margin-bottom: 2rem;
 
-    ${media.tablet`
+    ${media.md`
         margin-bottom: 0;
         padding-right: 2rem;
         min-width: 517px;
@@ -38,7 +38,7 @@ const TokenInfo = styled.div`
     background: #f8f8f8;
     border-radius: 4px;
 
-    ${media.tablet`
+    ${media.md`
         background: #fcfcfc;
         min-width: 18rem;
         transition: all 250ms ease-in-out;

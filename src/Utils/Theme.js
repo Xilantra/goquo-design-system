@@ -391,9 +391,11 @@ export const buttonRounded = [pill]
 export const buttonBorderWidth = '0.125rem' // 2px
 
 const sizes = {
-    desktop: 992,
-    tablet: 768,
-    // phone: 576, // Disable phone because we write from mobile and up. Inherit styling from mobile.
+    xl: 1200, // 75rem // Extra large devices (large desktops, 1200px and up)
+    lg: 1024, // 64rem // Large devices (desktops, 1024px and up)
+    md: 768, // 48rem // Medium devices (tablets, 768px and up)
+    sm: 576 // 36rem // Small devices (landscape phones, 576px and up)
+ // xs: 575.98 // No media query for `xs` since everything is written from xs (mobile first)
 }
 
 // Iterate through the sizes and create a media template
@@ -409,7 +411,10 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
   
   // Usage
   // ${media.desktop` styling here `}
+
+// @media (min-width: ${sizes.md / 16}rem) and (max-width: ${sizes.lg / 16}rem) {}
   
+
 
 const theme = {
     colors,

@@ -1,0 +1,257 @@
+---
+name: Layout
+route: /guidelines/layout
+menu: 'Guidelines'
+---
+import { Playground, PropsTable } from 'docz'
+import {Grid, Col, Row} from 'react-styled-flexboxgrid'
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import GridBlock from './Layout.js'
+
+<GlobalStyle />
+
+# Layout
+```import {Grid, Col, Row} from 'react-styled-flexboxgrid'```
+
+
+<Row>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+  <Col xs={1}><GridBlock /></Col>
+</Row>
+<Row>
+  <Col xs={12} sm={3} md={2} lg={1}><GridBlock /></Col>
+  <Col xs={6} sm={6} md={8} lg={10}><GridBlock /></Col>
+  <Col xs={6} sm={3} md={2} lg={1}><GridBlock /></Col>
+</Row>
+<Row>
+  <Col xs={12} sm={3} md={2} lg={1}><GridBlock /></Col>
+  <Col xs={12} sm={9} md={10} lg={11}><GridBlock /></Col>
+</Row>
+<Row>
+  <Col xs={10} sm={6} md={8} lg={10}><GridBlock /></Col>
+  <Col xs={2} sm={6} md={4} lg={2}><GridBlock /></Col>
+</Row>
+
+
+## Introduction
+
+
+## Responsive Breakpoint
+| Target            | Name    | Pixel     | Rem     |
+| :---------------: | :-----: | :-------: | :-----: |
+| Phones            | xs      | 0         | 0       |
+| Landscape Phones  | sm      | 576px     | 36rem   |
+| Tablets           | md      | 768px     | 48rem   |
+| Desktops          | lg      | 1024px    | 64rem   |
+| Large Desktops    | xl      | 1200px    | 75rem   |
+
+<small>*xl is available in CSS only.</small>
+
+
+## Flexbox Grid
+Taken from react-styled-flexboxgrid.
+Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md & lg viewport widths.
+
+`xs={12} sm={3} md={2} lg={1}`
+
+
+<Playground>
+    {/* Add <Grid> as container */}
+    {/* Use <Grid fluid> for fluid container */}
+
+  <Row>
+    <Col xs={12} sm={3} md={2} lg={1}><GridBlock /></Col>
+    <Col xs={6} sm={6} md={8} lg={10}><GridBlock /></Col>
+    <Col xs={6} sm={3} md={2} lg={1}><GridBlock /></Col>
+  </Row>
+  <Row>
+    <Col xs={12} sm={3} md={2} lg={1}><GridBlock /></Col>
+    <Col xs={12} sm={9} md={10} lg={11}><GridBlock /></Col>
+  </Row>
+  <Row>
+    <Col xs={10} sm={6} md={8} lg={10}><GridBlock /></Col>
+    <Col xs={2} sm={6} md={4} lg={2}><GridBlock /></Col>
+  </Row>
+</Playground>
+
+
+## Offsets
+Offset a column.
+
+```xsOffset```
+
+<Playground>
+  <Row>
+    <Col xsOffset={11} xs={1}><GridBlock /></Col>
+    <Col xsOffset={10} xs={2}><GridBlock /></Col>
+    <Col xsOffset={9} xs={3}><GridBlock /></Col>
+    <Col xsOffset={8} xs={4}><GridBlock /></Col>
+    <Col xsOffset={7} xs={5}><GridBlock /></Col>
+    <Col xsOffset={6} xs={6}><GridBlock /></Col>
+    <Col xsOffset={5} xs={7}><GridBlock /></Col>
+    <Col xsOffset={4} xs={8}><GridBlock /></Col>
+    <Col xsOffset={3} xs={9}><GridBlock /></Col>
+    <Col xsOffset={2} xs={10}><GridBlock /></Col>
+    <Col xsOffset={1} xs={11}><GridBlock /></Col>
+  </Row>
+</Playground>
+
+
+## Auto Width
+Add any number of auto sizing columns to a row. Let the grid figure it out.
+
+```xs```
+
+<Playground>
+  <Row>
+    <Col xs><GridBlock /></Col>
+    <Col xs><GridBlock /></Col>
+  </Row>
+  <Row>
+    <Col xs><GridBlock /></Col>
+    <Col xs><GridBlock /></Col>
+    <Col xs><GridBlock /></Col>
+  </Row>
+</Playground>
+
+
+## Alignment
+Add classes to align elements to the start or end of row as well as the top, bottom, or center of a column.
+
+```start={}```
+
+<Playground>
+  <Row>
+    <Col xs={12}>
+      <GridBlock>
+        <Row start="xs">
+          <Col xs={6}><GridBlock darker/></Col>
+        </Row>
+      </GridBlock>
+    </Col>
+  </Row>
+</Playground>
+
+
+## Center
+```center={}```
+
+<Playground>
+  <Row>
+    <Col xs={12}>
+      <GridBlock>
+        <Row center="xs">
+          <Col xs={6}><GridBlock darker/></Col>
+        </Row>
+      </GridBlock>
+    </Col>
+  </Row>
+</Playground>
+
+
+## End
+```end={}```
+
+<Playground>
+  <Row>
+    <Col xs={12}>
+      <GridBlock>
+        <Row end="xs">
+          <Col xs={6}><GridBlock darker/></Col>
+        </Row>
+      </GridBlock>
+    </Col>
+  </Row>
+</Playground>
+
+
+## Top
+```top={}```
+
+<Playground>
+  <Row top="xs">
+    <Col xs={6}><GridBlock /></Col>
+    <Col xs={6}><GridBlock shorter/></Col>
+  </Row>
+</Playground>
+
+
+## Middle
+```middle={}```
+
+<Playground>
+  <Row middle="xs">
+    <Col xs={6}><GridBlock /></Col>
+    <Col xs={6}><GridBlock shorter/></Col>
+  </Row>
+</Playground>
+
+
+## Bottom
+```bottom={}```
+
+<Playground>
+  <Row bottom="xs">
+    <Col xs={6}><GridBlock /></Col>
+    <Col xs={6}><GridBlock shorter/></Col>
+  </Row>
+</Playground>
+
+
+## Around
+```around={}```
+
+<Playground>
+  <Row>
+    <Col xs={12}>
+      <GridBlock>
+        <Row around="xs">
+          <Col xs={2}><GridBlock darker/></Col>
+          <Col xs={2}><GridBlock darker/></Col>
+          <Col xs={2}><GridBlock darker/></Col>
+        </Row>
+      </GridBlock>
+    </Col>
+  </Row>
+</Playground>
+
+
+## Between
+```between={}```
+
+<Playground>
+  <Row>
+    <Col xs={12}>
+      <GridBlock>
+        <Row between="xs">
+          <Col xs={2}><GridBlock darker/></Col>
+          <Col xs={2}><GridBlock darker/></Col>
+          <Col xs={2}><GridBlock darker/></Col>
+        </Row>
+      </GridBlock>
+    </Col>
+  </Row>
+</Playground>
+
+
+
+## Hide
+```{false}```
+
+<Playground>
+  <Row>
+    <Col xs={12} md={6}><GridBlock /></Col>
+    <Col xs={false} md={6}><GridBlock /></Col>
+  </Row>
+</Playground>
+

@@ -48,83 +48,6 @@
         }
       ]
     },
-    "docs/Components/Button.mdx": {
-      "name": "Button",
-      "route": "/components/button",
-      "menu": "Components",
-      "id": "85f9c6db55abd51e6ff8404c0b7a5418",
-      "filepath": "docs/Components/Button.mdx",
-      "link": null,
-      "slug": "docs-components-button",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "button",
-          "value": "Button"
-        },
-        {
-          "depth": 2,
-          "slug": "introduction",
-          "value": "Introduction"
-        },
-        {
-          "depth": 2,
-          "slug": "primary-button",
-          "value": "Primary Button"
-        },
-        {
-          "depth": 2,
-          "slug": "secondary-button",
-          "value": "Secondary Button"
-        },
-        {
-          "depth": 2,
-          "slug": "ghost-button",
-          "value": "Ghost Button"
-        },
-        {
-          "depth": 2,
-          "slug": "danger-button",
-          "value": "Danger Button"
-        },
-        {
-          "depth": 2,
-          "slug": "outline-button",
-          "value": "Outline Button"
-        },
-        {
-          "depth": 2,
-          "slug": "disabled-button",
-          "value": "Disabled Button"
-        },
-        {
-          "depth": 2,
-          "slug": "icon-button",
-          "value": "Icon Button"
-        },
-        {
-          "depth": 2,
-          "slug": "link",
-          "value": "Link"
-        },
-        {
-          "depth": 2,
-          "slug": "button-size",
-          "value": "Button Size"
-        },
-        {
-          "depth": 2,
-          "slug": "button-full-width",
-          "value": "Button Full Width"
-        },
-        {
-          "depth": 2,
-          "slug": "button-skeleton",
-          "value": "Button Skeleton"
-        }
-      ]
-    },
     "docs/DesignToken/Color.mdx": {
       "name": "Color",
       "route": "/designtokens/color",
@@ -305,6 +228,83 @@
         }
       ]
     },
+    "docs/Components/Button.mdx": {
+      "name": "Button",
+      "route": "/components/button",
+      "menu": "Components",
+      "id": "85f9c6db55abd51e6ff8404c0b7a5418",
+      "filepath": "docs/Components/Button.mdx",
+      "link": null,
+      "slug": "docs-components-button",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "introduction",
+          "value": "Introduction"
+        },
+        {
+          "depth": 2,
+          "slug": "primary-button",
+          "value": "Primary Button"
+        },
+        {
+          "depth": 2,
+          "slug": "secondary-button",
+          "value": "Secondary Button"
+        },
+        {
+          "depth": 2,
+          "slug": "ghost-button",
+          "value": "Ghost Button"
+        },
+        {
+          "depth": 2,
+          "slug": "danger-button",
+          "value": "Danger Button"
+        },
+        {
+          "depth": 2,
+          "slug": "outline-button",
+          "value": "Outline Button"
+        },
+        {
+          "depth": 2,
+          "slug": "disabled-button",
+          "value": "Disabled Button"
+        },
+        {
+          "depth": 2,
+          "slug": "icon-button",
+          "value": "Icon Button"
+        },
+        {
+          "depth": 2,
+          "slug": "link",
+          "value": "Link"
+        },
+        {
+          "depth": 2,
+          "slug": "button-size",
+          "value": "Button Size"
+        },
+        {
+          "depth": 2,
+          "slug": "button-full-width",
+          "value": "Button Full Width"
+        },
+        {
+          "depth": 2,
+          "slug": "button-skeleton",
+          "value": "Button Skeleton"
+        }
+      ]
+    },
     "docs/Guidelines/Accessibility.mdx": {
       "name": "Accessibility",
       "route": "/guidelines/accessibility",
@@ -339,6 +339,93 @@
           "depth": 2,
           "slug": "global-standards",
           "value": "Global standards"
+        }
+      ]
+    },
+    "docs/Guidelines/Layout.mdx": {
+      "name": "Layout",
+      "route": "/guidelines/layout",
+      "menu": "Guidelines",
+      "id": "9ec84b6e3b5d7cbbb7ce295d8cd7a7c1",
+      "filepath": "docs/Guidelines/Layout.mdx",
+      "link": null,
+      "slug": "docs-guidelines-layout",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "layout",
+          "value": "Layout"
+        },
+        {
+          "depth": 2,
+          "slug": "introduction",
+          "value": "Introduction"
+        },
+        {
+          "depth": 2,
+          "slug": "responsive-breakpoint",
+          "value": "Responsive Breakpoint"
+        },
+        {
+          "depth": 2,
+          "slug": "flexbox-grid",
+          "value": "Flexbox Grid"
+        },
+        {
+          "depth": 2,
+          "slug": "offsets",
+          "value": "Offsets"
+        },
+        {
+          "depth": 2,
+          "slug": "auto-width",
+          "value": "Auto Width"
+        },
+        {
+          "depth": 2,
+          "slug": "alignment",
+          "value": "Alignment"
+        },
+        {
+          "depth": 2,
+          "slug": "center",
+          "value": "Center"
+        },
+        {
+          "depth": 2,
+          "slug": "end",
+          "value": "End"
+        },
+        {
+          "depth": 2,
+          "slug": "top",
+          "value": "Top"
+        },
+        {
+          "depth": 2,
+          "slug": "middle",
+          "value": "Middle"
+        },
+        {
+          "depth": 2,
+          "slug": "bottom",
+          "value": "Bottom"
+        },
+        {
+          "depth": 2,
+          "slug": "around",
+          "value": "Around"
+        },
+        {
+          "depth": 2,
+          "slug": "between",
+          "value": "Between"
+        },
+        {
+          "depth": 2,
+          "slug": "hide",
+          "value": "Hide"
         }
       ]
     },

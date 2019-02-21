@@ -16,6 +16,11 @@ const GlobalStyle = createGlobalStyle`
         font-size: ${theme.typeScale[4]};
         color: ${theme.colors.text01};
     }
+
+    ::selection {
+        background: darkturquoise;
+        color: #fff;
+    }
 `
 
 export default GlobalStyle
