@@ -1,0 +1,26 @@
+---
+name: Input Text
+route: /components/input-text
+menu: 'Components'
+---
+import { Playground, PropsTable } from 'docz'
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import InputText from '../../src/components/InputText/'
+
+<GlobalStyle />
+
+# Input
+```import Input from '../src/components/InputText/'```
+
+<Playground>
+    <InputText
+        id='user_name'
+        name='name'
+        label='Nick Name'
+    />
+    <InputText
+        id='user_email'
+        name='email'
+        label='Email'
+    />
+</Playground>

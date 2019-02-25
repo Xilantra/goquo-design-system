@@ -43,8 +43,124 @@
         },
         {
           "depth": 2,
-          "slug": "resource",
-          "value": "Resource"
+          "slug": "guidelines",
+          "value": "Guidelines"
+        },
+        {
+          "depth": 2,
+          "slug": "resources",
+          "value": "Resources"
+        }
+      ]
+    },
+    "docs/Components/Button.mdx": {
+      "name": "Button",
+      "route": "/components/button",
+      "menu": "Components",
+      "id": "85f9c6db55abd51e6ff8404c0b7a5418",
+      "filepath": "docs/Components/Button.mdx",
+      "link": null,
+      "slug": "docs-components-button",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "introduction",
+          "value": "Introduction"
+        },
+        {
+          "depth": 2,
+          "slug": "primary-button",
+          "value": "Primary Button"
+        },
+        {
+          "depth": 2,
+          "slug": "secondary-button",
+          "value": "Secondary Button"
+        },
+        {
+          "depth": 2,
+          "slug": "ghost-button",
+          "value": "Ghost Button"
+        },
+        {
+          "depth": 2,
+          "slug": "danger-button",
+          "value": "Danger Button"
+        },
+        {
+          "depth": 2,
+          "slug": "outline-button",
+          "value": "Outline Button"
+        },
+        {
+          "depth": 2,
+          "slug": "disabled-button",
+          "value": "Disabled Button"
+        },
+        {
+          "depth": 2,
+          "slug": "icon-button",
+          "value": "Icon Button"
+        },
+        {
+          "depth": 2,
+          "slug": "link",
+          "value": "Link"
+        },
+        {
+          "depth": 2,
+          "slug": "button-size",
+          "value": "Button Size"
+        },
+        {
+          "depth": 2,
+          "slug": "button-full-width",
+          "value": "Button Full Width"
+        },
+        {
+          "depth": 2,
+          "slug": "button-skeleton",
+          "value": "Button Skeleton"
+        }
+      ]
+    },
+    "docs/Components/InputText.mdx": {
+      "name": "Input Text",
+      "route": "/components/input-text",
+      "menu": "Components",
+      "id": "dba15d2fcff616dae6b1eb6ec656a458",
+      "filepath": "docs/Components/InputText.mdx",
+      "link": null,
+      "slug": "docs-components-input-text",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "input",
+          "value": "Input"
+        }
+      ]
+    },
+    "docs/Components/Checkbox.mdx": {
+      "name": "Checkbox",
+      "route": "/components/checkbox",
+      "menu": "Components",
+      "id": "5eeeeeffe70bc6832088c29d5c0b7074",
+      "filepath": "docs/Components/Checkbox.mdx",
+      "link": null,
+      "slug": "docs-components-checkbox",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "input",
+          "value": "Input"
         }
       ]
     },
@@ -85,20 +201,20 @@
         }
       ]
     },
-    "docs/DesignToken/LayoutScale.mdx": {
-      "name": "Layout Scale",
-      "route": "/designtokens/layout-scale",
+    "docs/DesignToken/Radius.mdx": {
+      "name": "Radius",
+      "route": "/designtokens/radius",
       "menu": "Design Tokens",
-      "id": "c92b59b1294d29ac4cc1bfd7abe122b7",
-      "filepath": "docs/DesignToken/LayoutScale.mdx",
+      "id": "46c215869adc402042600900ef7a7a8d",
+      "filepath": "docs/DesignToken/Radius.mdx",
       "link": null,
-      "slug": "docs-design-token-layout-scale",
+      "slug": "docs-design-token-radius",
       "order": 0,
       "headings": [
         {
           "depth": 1,
-          "slug": "layout-scale",
-          "value": "Layout Scale"
+          "slug": "radius",
+          "value": "Radius"
         },
         {
           "depth": 2,
@@ -117,20 +233,20 @@
         }
       ]
     },
-    "docs/DesignToken/Radius.mdx": {
-      "name": "Radius",
-      "route": "/designtokens/radius",
+    "docs/DesignToken/LayoutScale.mdx": {
+      "name": "Layout Scale",
+      "route": "/designtokens/layout-scale",
       "menu": "Design Tokens",
-      "id": "46c215869adc402042600900ef7a7a8d",
-      "filepath": "docs/DesignToken/Radius.mdx",
+      "id": "c92b59b1294d29ac4cc1bfd7abe122b7",
+      "filepath": "docs/DesignToken/LayoutScale.mdx",
       "link": null,
-      "slug": "docs-design-token-radius",
+      "slug": "docs-design-token-layout-scale",
       "order": 0,
       "headings": [
         {
           "depth": 1,
-          "slug": "radius",
-          "value": "Radius"
+          "slug": "layout-scale",
+          "value": "Layout Scale"
         },
         {
           "depth": 2,
@@ -225,83 +341,6 @@
           "depth": 2,
           "slug": "paragraph",
           "value": "Paragraph"
-        }
-      ]
-    },
-    "docs/Components/Button.mdx": {
-      "name": "Button",
-      "route": "/components/button",
-      "menu": "Components",
-      "id": "85f9c6db55abd51e6ff8404c0b7a5418",
-      "filepath": "docs/Components/Button.mdx",
-      "link": null,
-      "slug": "docs-components-button",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "button",
-          "value": "Button"
-        },
-        {
-          "depth": 2,
-          "slug": "introduction",
-          "value": "Introduction"
-        },
-        {
-          "depth": 2,
-          "slug": "primary-button",
-          "value": "Primary Button"
-        },
-        {
-          "depth": 2,
-          "slug": "secondary-button",
-          "value": "Secondary Button"
-        },
-        {
-          "depth": 2,
-          "slug": "ghost-button",
-          "value": "Ghost Button"
-        },
-        {
-          "depth": 2,
-          "slug": "danger-button",
-          "value": "Danger Button"
-        },
-        {
-          "depth": 2,
-          "slug": "outline-button",
-          "value": "Outline Button"
-        },
-        {
-          "depth": 2,
-          "slug": "disabled-button",
-          "value": "Disabled Button"
-        },
-        {
-          "depth": 2,
-          "slug": "icon-button",
-          "value": "Icon Button"
-        },
-        {
-          "depth": 2,
-          "slug": "link",
-          "value": "Link"
-        },
-        {
-          "depth": 2,
-          "slug": "button-size",
-          "value": "Button Size"
-        },
-        {
-          "depth": 2,
-          "slug": "button-full-width",
-          "value": "Button Full Width"
-        },
-        {
-          "depth": 2,
-          "slug": "button-skeleton",
-          "value": "Button Skeleton"
         }
       ]
     },
@@ -439,6 +478,28 @@
       "slug": "docs-guidelines-test",
       "order": 0,
       "headings": []
+    },
+    "docs/Guidelines/Theming.mdx": {
+      "name": "Theming",
+      "route": "/guidelines/theming",
+      "menu": "Guidelines",
+      "id": "094846991e1ae7cec64ee3eff4d4e753",
+      "filepath": "docs/Guidelines/Theming.mdx",
+      "link": null,
+      "slug": "docs-guidelines-theming",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "theming",
+          "value": "Theming"
+        },
+        {
+          "depth": 2,
+          "slug": "introduction",
+          "value": "Introduction"
+        }
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
 // import { darken } from 'polished'
-import { colors } from '../../src/Utils/Theme'
+import colors from '../../src/Utils/Colors'
 
 const PostWrapper = styled.div`
   display: flex;

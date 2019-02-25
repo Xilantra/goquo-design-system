@@ -2,8 +2,11 @@
 name: Introduction
 route: '/'
 ---
+import { Docs } from 'docz'
 import styled from 'styled-components'
 import GlobalStyle from '../src/Utils/GlobalStyle.js'
+import { Col, Row } from 'react-styled-flexboxgrid'
+import CardList from './Card3D.js'
 
 export const HeroWrapper = styled.div`
     height: 49vh;
@@ -51,7 +54,26 @@ Regardless of the technologies and tools behind them, a successful design system
 
 Your first, most important task when starting out is to define the rules of your system, document them, and ensure that everyone follows them. When you have clearly documented code standards and best practices in place, designers and developers from across your organization can easily use and, more importantly, contribute to your design system.
 
-## Resource
+## Guidelines
+<Row>
+  <Col xs={6}>
+        <CardList
+            link="/guidelines/accessibility/"
+            title="Accessibility"
+        />
+  </Col>
+  <Col xs={6}>
+        <CardList
+            link="/guidelines/layout/"
+            title="Layout"
+        />
+  </Col>
+</Row>
+
+
+
+
+## Resources
 [Adele by UXPin - Design System list](https://adele.uxpin.com)<br />
 [Creating a Design System: The Step-by-Step Guide](https://www.uxpin.com/create-design-system-guide/)<br />
 [Expert Advice by InVision](https://www.invisionapp.com/design-system-manager/expert-advice)<br />

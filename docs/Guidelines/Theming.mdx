@@ -1,0 +1,30 @@
+---
+name: Theming
+route: /guidelines/theming
+menu: 'Guidelines'
+---
+import { Playground, PropsTable } from 'docz'
+import { Button } from '../../src/components/Button/'
+import GlobalStyle from '../../src/Utils/GlobalStyle.js'
+import theme from '../../src/Utils/Theme.js'
+import styled, { ThemeProvider } from 'styled-components'
+import HotelTheme from '../../src/Utils/HotelTheme.js'
+
+<GlobalStyle />
+
+# Theming
+```import {Grid, Col, Row} from 'react-styled-flexboxgrid'```
+
+## Introduction
+```<ThemeProvider>``` returns its children when rendering, so it must only wrap a single child node as it may be used as the root of the render() method.
+
+
+<Playground>
+  
+    <ThemeProvider theme={HotelTheme}>
+    <div>
+      <Button>Default Theme</Button>
+
+    </div>
+  </ThemeProvider>
+</Playground>

@@ -138,6 +138,7 @@ Button.propTypes = {
   rounded: t.bool,
   fullWidth: t.bool,
   scales: t.oneOf(['small', 'normal', 'big']),
+  theme: theme,
 }
 
 Button.defaultProps = {
@@ -145,7 +146,8 @@ Button.defaultProps = {
   kind: 'primary',
   outline: false,
   rounded: false,
-  fullWidth: false
+  fullWidth: false,
+  theme: theme,
 }
 
 Button.displayName = 'Button'
