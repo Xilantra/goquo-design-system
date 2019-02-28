@@ -54,8 +54,8 @@ const LabelText = styled.span`
     vertical-align: middle;
 `
 
-const CheckboxStyled = ({ className, checked, ...props }) => (
-  <CheckboxContainer className={className}>
+const CheckboxStyled = ({ checked, ...props }) => (
+  <CheckboxContainer>
     <HiddenCheckbox checked={checked} {...props} />
     <StyledCheckbox checked={checked}>
       <Icon viewBox="0 0 24 24">

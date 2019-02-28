@@ -1,18 +1,20 @@
 export const imports = {
   'docs/index.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-index" */ 'docs/index.mdx'),
+  'docs/Components/Accordion.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "docs-components-accordion" */ 'docs/Components/Accordion.mdx'),
   'docs/Components/Button.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-components-button" */ 'docs/Components/Button.mdx'),
-  'docs/Components/InputText.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "docs-components-input-text" */ 'docs/Components/InputText.mdx'),
   'docs/Components/Checkbox.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-components-checkbox" */ 'docs/Components/Checkbox.mdx'),
+  'docs/Components/InputText.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "docs-components-input-text" */ 'docs/Components/InputText.mdx'),
   'docs/DesignToken/Color.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-design-token-color" */ 'docs/DesignToken/Color.mdx'),
-  'docs/DesignToken/Radius.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "docs-design-token-radius" */ 'docs/DesignToken/Radius.mdx'),
   'docs/DesignToken/LayoutScale.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-design-token-layout-scale" */ 'docs/DesignToken/LayoutScale.mdx'),
+  'docs/DesignToken/Radius.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "docs-design-token-radius" */ 'docs/DesignToken/Radius.mdx'),
   'docs/DesignToken/SpacingScale.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-design-token-spacing-scale" */ 'docs/DesignToken/SpacingScale.mdx'),
   'docs/DesignToken/Typography.mdx': () =>

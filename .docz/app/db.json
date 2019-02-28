@@ -53,6 +53,23 @@
         }
       ]
     },
+    "docs/Components/Accordion.mdx": {
+      "name": "Accordion",
+      "route": "/components/accordion",
+      "menu": "Components",
+      "id": "a1f7a62fc286822b2ad6f095808fcd8e",
+      "filepath": "docs/Components/Accordion.mdx",
+      "link": null,
+      "slug": "docs-components-accordion",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "accordion",
+          "value": "Accordion"
+        }
+      ]
+    },
     "docs/Components/Button.mdx": {
       "name": "Button",
       "route": "/components/button",
@@ -130,23 +147,6 @@
         }
       ]
     },
-    "docs/Components/InputText.mdx": {
-      "name": "Input Text",
-      "route": "/components/input-text",
-      "menu": "Components",
-      "id": "dba15d2fcff616dae6b1eb6ec656a458",
-      "filepath": "docs/Components/InputText.mdx",
-      "link": null,
-      "slug": "docs-components-input-text",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "input",
-          "value": "Input"
-        }
-      ]
-    },
     "docs/Components/Checkbox.mdx": {
       "name": "Checkbox",
       "route": "/components/checkbox",
@@ -155,6 +155,23 @@
       "filepath": "docs/Components/Checkbox.mdx",
       "link": null,
       "slug": "docs-components-checkbox",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "checkbox",
+          "value": "Checkbox"
+        }
+      ]
+    },
+    "docs/Components/InputText.mdx": {
+      "name": "Input Text",
+      "route": "/components/input-text",
+      "menu": "Components",
+      "id": "dba15d2fcff616dae6b1eb6ec656a458",
+      "filepath": "docs/Components/InputText.mdx",
+      "link": null,
+      "slug": "docs-components-input-text",
       "order": 0,
       "headings": [
         {
@@ -201,20 +218,20 @@
         }
       ]
     },
-    "docs/DesignToken/Radius.mdx": {
-      "name": "Radius",
-      "route": "/designtokens/radius",
+    "docs/DesignToken/LayoutScale.mdx": {
+      "name": "Layout Scale",
+      "route": "/designtokens/layout-scale",
       "menu": "Design Tokens",
-      "id": "46c215869adc402042600900ef7a7a8d",
-      "filepath": "docs/DesignToken/Radius.mdx",
+      "id": "c92b59b1294d29ac4cc1bfd7abe122b7",
+      "filepath": "docs/DesignToken/LayoutScale.mdx",
       "link": null,
-      "slug": "docs-design-token-radius",
+      "slug": "docs-design-token-layout-scale",
       "order": 0,
       "headings": [
         {
           "depth": 1,
-          "slug": "radius",
-          "value": "Radius"
+          "slug": "layout-scale",
+          "value": "Layout Scale"
         },
         {
           "depth": 2,
@@ -233,20 +250,20 @@
         }
       ]
     },
-    "docs/DesignToken/LayoutScale.mdx": {
-      "name": "Layout Scale",
-      "route": "/designtokens/layout-scale",
+    "docs/DesignToken/Radius.mdx": {
+      "name": "Radius",
+      "route": "/designtokens/radius",
       "menu": "Design Tokens",
-      "id": "c92b59b1294d29ac4cc1bfd7abe122b7",
-      "filepath": "docs/DesignToken/LayoutScale.mdx",
+      "id": "46c215869adc402042600900ef7a7a8d",
+      "filepath": "docs/DesignToken/Radius.mdx",
       "link": null,
-      "slug": "docs-design-token-layout-scale",
+      "slug": "docs-design-token-radius",
       "order": 0,
       "headings": [
         {
           "depth": 1,
-          "slug": "layout-scale",
-          "value": "Layout Scale"
+          "slug": "radius",
+          "value": "Radius"
         },
         {
           "depth": 2,

@@ -94,6 +94,10 @@ const ButtonStyled = styled('button')`
     transform: scale(.98);
     outline: none;
   }
+  
+  &::-moz-focus-inner {
+      border: 0;
+  }
 
   &:disabled {
       background-color: ${theme.colors.disabled01};
